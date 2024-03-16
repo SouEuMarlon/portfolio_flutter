@@ -6,7 +6,7 @@ import 'package:flutter_sanity/flutter_sanity.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class ProjectSection extends StatefulWidget {
-  const ProjectSection({Key? key}) : super(key: key);
+  const ProjectSection({super.key});
 
   @override
   _ProjectSectionState createState() => _ProjectSectionState();
